@@ -106,13 +106,13 @@ body.blurred > * {
 *
 *  http://liquidslider.com
 *
-*  GPL license 
+*  GPL license
 *
 ************************************************************************/
 /******************************************************
 * No JavaScript
 * Use this to apply styles when Javascript is disabled,
-* and be sure to include the ".no-js" class in your html 
+* and be sure to include the ".no-js" class in your html
 * markup.
 *******************************************************/
 .no-js .liquid-slider {
@@ -122,7 +122,7 @@ body.blurred > * {
 /******************************************************
 * Preloader
 * Use this to apply styles when Javascript is disabled,
-* and be sure to include the ".no-js" class in your html 
+* and be sure to include the ".no-js" class in your html
 * markup.
 *******************************************************/
 .ls-preloader {
@@ -138,7 +138,7 @@ body.blurred > * {
 }
 
 /******************************************************************
-* Base Styles 
+* Base Styles
 * The styles here will apply to everything. I recommend you keep
 * the styles in here specific to mobile defices, then use
 * the media queries at the bottom to define further styles for larger
@@ -158,7 +158,7 @@ body.blurred > * {
 /******************************************************
 * Main Container
 * This is the main container (minus the navigation).
-* Be sure to match the width with the .panel class, 
+* Be sure to match the width with the .panel class,
 * or it won't work properly. Also, width only applies
 * if you are not using the responsive setting.
 *
@@ -192,7 +192,7 @@ body.blurred > * {
 
 /******************************************************
 * Panels
-* This is for the panels. If you are using the 
+* This is for the panels. If you are using the
 * responsive setting, this will act as the max-width
 * for the entire slider.
 *******************************************************/
@@ -205,26 +205,26 @@ body.blurred > * {
 /******************************************************
 * These provide a base starting point for images and
 * video. However, you will have to add more rules
-* based on the content you use. Use the @media queries 
+* based on the content you use. Use the @media queries
 * at the bottom of this file.
 *******************************************************/
 .ls-wrapper .liquid-slider .panel img {
   /*
   width:100%;
-  height:auto;  
+  height:auto;
   margin:0 5px;
   */
 }
 
 .ls-wrapper .liquid-slider .panel video {
   /*
-  width:100%;  
+  width:100%;
   height:auto;
   */
 }
 
 /******************************************************
-* This is mainly used to adjust the padding inside each 
+* This is mainly used to adjust the padding inside each
 * panel. If you are using the responsive setting, you
 * need to use the settings below as this will not apply.
 *******************************************************/
@@ -235,8 +235,8 @@ body.blurred > * {
 
 /*****************************************************
 * This will adjust styles for all navigation tabs
-* less of course the select box used for mobile 
-* navigation. The .current styles will apply only to 
+* less of course the select box used for mobile
+* navigation. The .current styles will apply only to
 * the current tab.
 *
 * You may use this section to create navigation for
@@ -302,7 +302,7 @@ body.blurred > * {
 }
 
 .ls-wrapper .ls-select-box select {
-  /* If you want the standard select box, use 
+  /* If you want the standard select box, use
   width:100%
   And delete the rest of the styling here */
   width: 150%;
@@ -320,10 +320,10 @@ body.blurred > * {
 
 /******************************************************
 * Arrows
-* This section refers to both the non-graphical and 
-* graphical navigation arrows. 
+* This section refers to both the non-graphical and
+* graphical navigation arrows.
 *
-* Some settings will be overwritten when using the 
+* Some settings will be overwritten when using the
 * responsive setting.
 *******************************************************/
 .ls-wrapper .ls-nav-left, .ls-wrapper .ls-nav-right {
@@ -402,7 +402,7 @@ body.blurred > * {
 
 /******************************************************
 * Responsive Styles
-* Here are the main responsive styles. This mostly 
+* Here are the main responsive styles. This mostly
 * covers the arrows, and most of the settings can be
 * applied above.
 *******************************************************/
@@ -470,8 +470,8 @@ body.blurred > * {
 
 /******************************************************************
 * Larger Mobile Devices
-* This is for devices like the Galaxy Note or something that's 
-* larger than an iPhone but smaller than a tablet. 
+* This is for devices like the Galaxy Note or something that's
+* larger than an iPhone but smaller than a tablet.
 ******************************************************************/
 @media only screen and (min-width: 481px) {
   .ls-wrapper .liquid-slider .panel img {
@@ -499,18 +499,18 @@ body.blurred > * {
   }
 }
 /******************************************************************
-* DESKTOP 
-* This is the average viewing window. So Desktops, Laptops, and 
+* DESKTOP
+* This is the average viewing window. So Desktops, Laptops, and
 * in general anyone not viewing on a mobile device. Here's where
 * you can add resource intensive styles.
 ******************************************************************/
 /******************************************************************
-* LARGE VIEWING SIZE 
+* LARGE VIEWING SIZE
 * This is for the larger monitors and possibly full screen viewers.
 ******************************************************************/
 /******************************************************************
 * RETINA (2x RESOLUTION DEVICES)
-* This applies to the retina iPhone (4s) and iPad (2,3) along with 
+* This applies to the retina iPhone (4s) and iPad (2,3) along with
 * other displays with a 2x resolution. You can also create a media
 * query for retina AND a certain size if you want. Go Nuts.
 ******************************************************************/
